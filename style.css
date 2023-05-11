@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: hsl(201, 11%, 66%);
+}
+
+header {
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-strong-cyan,
+.btn-light-blue {
+  border-radius: 50px;
+  color: aliceblue;
+  padding: 0 10px;
+}
+.btn-strong-cyan {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.btn-light-blue {
+  background-color: hsl(233, 100%, 69%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
