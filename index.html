@@ -28,11 +28,11 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <div class="container-fluid text-center header-container pt-5 pb-5 mb-5">
+    <header class="container-fluid">
+      <div class="header-container text-center mx-auto pt-5 pb-5 mb-5">
         <img src="./images/logo.svg" alt="logo" class="logo" />
         <h1>A history of everything you copy</h1>
-        <p class="pb-2">
+        <p class="title-description pb-2">
           Clipboard allows you to track and organize everything you copy.
           Instantly access your clipboard on all your devices.
         </p>
@@ -45,33 +45,47 @@
       </div>
     </header>
 
-    <main>
-      <h2>Keep track of your snippets</h2>
-      <p>
-        Clipboard instantly stores any item you copy in the cloud, meaning you
-        can access your snippets immediately on all your devices. Our Mac and
-        iOS apps will help you organize everything.
-      </p>
+    <main class="container-fluid">
+      <!-- Keep track section -->
+      <section class="keep-track mb-5">
+        <div class="top mx-auto text-center pb-2">
+          <h2 class="title">Keep track of your snippets</h2>
+          <p class="title-description">
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
+          </p>
+        </div>
 
-      <img
-        src="./images/image-computer.png"
-        class="computer-img"
-        alt="A computer screen"
-      />
+        <div class="d-flex flex-sm-col justify-content-between">
+          <img
+            src="./images/image-computer.png"
+            class="left computer-img"
+            alt="A computer screen"
+          />
 
-      <h3>Quick Search</h3>
-      <p>
-        Easily search your snippets by content, category, web address,
-        application, and more.
-      </p>
+          <div class="right">
+            <div class="pb-4">
+              <h3 class="title">Quick Search</h3>
+              <p>
+                Easily search your snippets by content, category, web address,
+                application, and more.
+              </p>
+            </div>
 
-      <h3>iCloud Sync</h3>
-      <p>Instantly saves and syncs snippets across all your devices.</p>
+            <div class="pb-4">
+              <h3>iCloud Sync</h3>
+              <p>Instantly saves and syncs snippets across all your devices.</p>
+            </div>
 
-      <h3>Complete History</h3>
-      <p>
-        Retrieve any snippets from the first moment you started using the app.
-      </p>
+            <h3>Complete History</h3>
+            <p>
+              Retrieve any snippets from the first moment you started using the
+              app.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <h2>Access Clipboard anywhere</h2>
       <p>

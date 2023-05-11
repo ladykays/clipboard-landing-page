@@ -4,6 +4,7 @@
   /* box-sizing: border-box; */
 }
 
+/* Element Selectors */
 html {
   background-color: hsl(201, 11%, 66%);
 }
@@ -22,12 +23,26 @@ header {
 
 }
 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  color: hsl(210, 10%, 33%);
+}
 h1 {
   padding: 2rem 0 0.2rem 0;
 }
 
-.header-container {
+p {
+  color: hsl(201, 11%, 66%);
+  font-size: 0.8rem;
+}
 
+/* Header Section */
+.header-container {
+  width: 80%
 }
 
 .logo {
@@ -55,6 +70,26 @@ h1 {
 .btn-light-blue {
   background-color: hsl(233, 100%, 69%);
 }
+
+/* Main Section */
+.keep-track {
+  padding-bottom: 8rem;
+}
+.top {
+  width: 80%;
+}
+
+.computer-img {
+  position: relative;
+  left: -5%;
+}
+
+.right {
+  padding-right: 5rem;
+  padding-top: 3rem;
+  width: 40%;
+}
+/* Footer Section */
 .attribution {
   font-size: 11px;
   text-align: center;
