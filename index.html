@@ -29,7 +29,7 @@
   </head>
   <body>
     <header class="container-fluid">
-      <div class="header-container text-center mx-auto pt-5 pb-5 mb-5">
+      <div class="header-container text-center mx-auto pt-5">
         <img src="./images/logo.svg" alt="logo" class="logo" />
         <h1>A history of everything you copy</h1>
         <p class="title-description pb-2">
@@ -57,10 +57,10 @@
           </p>
         </div>
 
-        <div class="d-flex flex-sm-col justify-content-between">
+        <div class="d-flex justify-content-between">
           <img
             src="./images/image-computer.png"
-            class="left computer-img"
+            class="left computer-img flex-md-col"
             alt="A computer screen"
           />
 
@@ -87,29 +87,54 @@
         </div>
       </section>
 
-      <h2>Access Clipboard anywhere</h2>
-      <p>
-        Whether you’re on the go, or at your computer, you can access all your
-        Clipboard snippets in a few simple clicks.
-      </p>
+      <section class="container">
+        <div class="access-clipboard mx-auto text-center">
+          <h2>Access Clipboard anywhere</h2>
+          <p class="mb-5">
+            Whether you’re on the go, or at your computer, you can access all
+            your Clipboard snippets in a few simple clicks.
+          </p>
+          <img src="./images/image-devices.png" alt="devices" />
+        </div>
+      </section>
 
-      <h2>Supercharge your workflow</h2>
-      <p>We’ve got the tools to boost your productivity.</p>
+      <section class="container mx-auto text-center">
+        <h2 class="title">Supercharge your workflow</h2>
+        <p class="pb-3">We’ve got the tools to boost your productivity.</p>
 
-      <fa></fa>
-      <h3>Create blacklists</h3>
-      <p>
-        Ensure sensitive information never makes its way to your clipboard by
-        excluding certain sources.
-      </p>
+        <!-- Cards -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./images/icon-blacklist.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Create blacklists</h5>
+                <p class="card-text">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./images/icon-text.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Plain text snippets</h5>
+                <p class="card-text">Remove unwanted formatting from copied text for a consistent look.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./images/icon-preview.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sneak preview</h5>
+                <p class="card-text">Quick preview of all snippets on your Clipboard for easy access.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <fa></fa>
-      <h3>Plain text snippets</h3>
-      <p>Remove unwanted formatting from copied text for a consistent look.</p>
-
-      <fa></fa>
-      <h3>Sneak preview</h3>
-      <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+      </section>
 
       <section class="partners-section">
         <!-- Logos -->

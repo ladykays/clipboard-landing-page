@@ -19,6 +19,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-bottom: 6rem;
   width: 100%;
 
 }
@@ -73,7 +74,7 @@ p {
 
 /* Main Section */
 .keep-track {
-  padding-bottom: 8rem;
+  padding-bottom: 6rem;
 }
 .top {
   width: 80%;
@@ -89,6 +90,20 @@ p {
   padding-top: 3rem;
   width: 40%;
 }
+
+.access-clipboard {
+  width: 80%;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  width: 10%;
+  margin: 2rem auto;
+}
+
 /* Footer Section */
 .attribution {
   font-size: 11px;
