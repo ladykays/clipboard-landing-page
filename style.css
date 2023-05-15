@@ -16,12 +16,13 @@ a {
 
 /* Element Selectors */
 html {
+  font-size: 16px;
   background-color: var(--grayishBlue);
 }
 
 body {
   font-family: "Bai Jamjuree", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem; 
 }
 
 header {
@@ -116,8 +117,8 @@ footer {
 
 /* Access Clipboard section */
 .access-clipboard {
-  width: 80%;
-}
+  width: 100%;
+} 
 
 /* Cards */
 .card {
@@ -178,4 +179,37 @@ footer a:hover {
 
 .attribution a {
   color: var(--lightBlue);
+}
+
+/* Media Query */
+@media only screen and (max-width: 375px) {
+  .logo {
+    width: 90px;
+  }
+
+  .btn {
+    padding: 6px 68px;
+  }
+
+  .computer-img {
+    justify-content: center;
+    margin: 0 auto;
+    position: unset;
+    width: 100%;
+  }
+
+  .right {
+    margin: 0 auto;
+    padding-right: 0;
+    width: 90%;
+  }
+
+  .access-clipboard-img {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 1440px) {
+
 }
