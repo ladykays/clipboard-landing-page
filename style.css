@@ -182,13 +182,13 @@ footer a:hover {
 }
 
 /* Media Query */
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 995px){
   .logo {
     width: 90px;
   }
 
   .btn {
-    padding: 6px 68px;
+    padding: 10px 68px;
   }
 
   .computer-img {
@@ -207,6 +207,14 @@ footer a:hover {
   .access-clipboard-img {
     width: 100%;
     margin-bottom: 3rem;
+  }
+
+  .partners-section {
+    justify-content: center;
+  }
+  .partner-logo {
+    width: 30%;
+    margin: 2rem auto;
   }
 }
 
