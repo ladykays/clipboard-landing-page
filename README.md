@@ -52,10 +52,6 @@ Users should be able to:
 
 I had the chance to implement and apply several concepts that I've recently learned, including creating sections and leveraging Bootstrap 5. Moreover, I made a conscious effort to organize my code in a clear and understandable manner, ensuring it can be easily understood by fellow developers.
 
-
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - [CSS Reset](https://medium.com/swlh/css-reset-2b4831d4664e) - This helped me with CSS reset. I really liked this pattern and will use it going forward.
